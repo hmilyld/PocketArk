@@ -53,3 +53,7 @@ pnpm test           # vitest 单测
 
 本仓库即框架 base。fork 通过 `git remote` 的 `upstream` 同步框架改动；个人内容集中在「本地层」
 （见 [`docs/local.md`](docs/local.md)）。改动归属判定见 [`docs/ownership.json`](docs/ownership.json)。
+
+## 许可
+
+本项目基于 [MIT 许可证](LICENSE) 开源，版权归 hmilyld 所有。

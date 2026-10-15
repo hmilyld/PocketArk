@@ -23,4 +23,4 @@ PocketArk 是一个桌面工具集合（Mac / Windows），基于 Tauri 2 + Vue 
 
 ## 许可
 
-本项目仅用于个人学习与效率工具用途。
+本项目基于 MIT 许可证开源，完整条款见仓库根目录的 LICENSE 文件。
