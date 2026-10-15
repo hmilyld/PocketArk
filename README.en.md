@@ -10,8 +10,8 @@ the framework code (`src/core`, `src-tauri/src`) is reference-only and never mod
 
 The repo itself is "framework + examples": `_template` (scaffold), `hello-world` (tutorial example)
 and `system` (data maintenance). To build your own app with it: clone, run `pnpm scaffold` and follow
-[`docs/start.md`](docs/start.md); put your personal tools in the "local layer"
-(see [`docs/local.md`](docs/local.md)) so they stay in sync with the upstream base.
+[`docs/en/start.md`](docs/en/start.md); put your personal tools in the "local layer"
+(see [`docs/en/local.md`](docs/en/local.md)) so they stay in sync with the upstream base.
 
 ## Tech stack
 
@@ -39,26 +39,26 @@ Requirements: Rust, Node 20+, pnpm. macOS needs Xcode Command Line Tools; Linux 
 such as webkit2gtk (see [Tauri prerequisites](https://tauri.app/start/prerequisites)).
 
 > The base ships with no bundled assets; if your fork adds tools that need assets such as fonts or OCR
-> models, see [`docs/local.md`](docs/local.md) (the local layer).
+> models, see [`docs/en/local.md`](docs/en/local.md) (the local layer).
 
 ## Documentation
 
-| Want to know                                                      | Look at                                                |
-| ----------------------------------------------------------------- | ------------------------------------------------------ |
-| Full documentation index                                          | [`docs/README.md`](docs/README.md)                     |
-| Build your own app from scratch (rename / icons / packaging)      | [`docs/start.md`](docs/start.md)                       |
-| Architecture and extension development (commands / DB / settings) | [`docs/extending.md`](docs/extending.md)               |
-| UI design spec                                                    | [`docs/design.md`](docs/design.md) + platform chapters |
-| Packaging, release and in-app updates                             | [`docs/release.md`](docs/release.md)                   |
-| Local layer (personal dependencies / assets)                      | [`docs/local.md`](docs/local.md)                       |
-| Development conventions, capability index, pitfalls               | [`AGENTS.md`](AGENTS.md)                               |
+| Want to know                                                      | Look at                                                      |
+| ----------------------------------------------------------------- | ------------------------------------------------------------ |
+| Full documentation index                                          | [`docs/README.md`](docs/README.md)                           |
+| Build your own app from scratch (rename / icons / packaging)      | [`docs/en/start.md`](docs/en/start.md)                       |
+| Architecture and extension development (commands / DB / settings) | [`docs/en/extending.md`](docs/en/extending.md)               |
+| UI design spec                                                    | [`docs/en/design.md`](docs/en/design.md) + platform chapters |
+| Packaging, release and in-app updates                             | [`docs/en/release.md`](docs/en/release.md)                   |
+| Local layer (personal dependencies / assets)                      | [`docs/en/local.md`](docs/en/local.md)                       |
+| Development conventions, capability index, pitfalls               | [`AGENTS.md`](AGENTS.md)                                     |
 
-> The documentation under `docs/` is currently written in Chinese.
+> Docs are split by language: Chinese in [`docs/zh`](docs/zh), English in [`docs/en`](docs/en).
 
 ## Collaboration and upstream
 
 This repository is the framework base. Forks sync framework changes through the `upstream` git remote;
-personal content lives in the "local layer" (see [`docs/local.md`](docs/local.md)). Change ownership is
+personal content lives in the "local layer" (see [`docs/en/local.md`](docs/en/local.md)). Change ownership is
 determined by [`docs/ownership.json`](docs/ownership.json).
 
 ## License

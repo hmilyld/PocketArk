@@ -8,8 +8,8 @@
 框架代码（`src/core`、`src-tauri/src`）只引用、不修改。
 
 仓库本身是「框架 + 示例」：`_template`（脚手架）、`hello-world`（教学示例）、`system`（数据维护）。
-想用它做你自己的软件：clone 后执行 `pnpm scaffold`，按 [`docs/start.md`](docs/start.md) 走完即可；
-叠加个人工具时把内容放进「本地层」（见 [`docs/local.md`](docs/local.md)），以便随上游 base 同步更新。
+想用它做你自己的软件：clone 后执行 `pnpm scaffold`，按 [`docs/zh/start.md`](docs/zh/start.md) 走完即可；
+叠加个人工具时把内容放进「本地层」（见 [`docs/zh/local.md`](docs/zh/local.md)），以便随上游 base 同步更新。
 
 ## 技术栈
 
@@ -37,24 +37,26 @@ pnpm test           # vitest 单测
 （见 [Tauri prerequisites](https://tauri.app/start/prerequisites)）。
 
 > base 本身不包含任何内置资源；若你的 fork 叠加了需要字体 / OCR 等资源的工具，
-> 见 [`docs/local.md`](docs/local.md)（本地层说明）。
+> 见 [`docs/zh/local.md`](docs/zh/local.md)（本地层说明）。
 
 ## 文档
 
-| 想知道什么                         | 看哪里                                      |
-| ---------------------------------- | ------------------------------------------- |
-| 全部文档索引                       | [`docs/README.md`](docs/README.md)          |
-| 从零搭自己的软件（改名/图标/打包） | [`docs/start.md`](docs/start.md)            |
-| 架构与扩展开发（命令/数据库/设置） | [`docs/extending.md`](docs/extending.md)    |
-| UI 设计规范                        | [`docs/design.md`](docs/design.md) 及平台篇 |
-| 打包、发布与在线更新               | [`docs/release.md`](docs/release.md)        |
-| 本地层（个人依赖/资源）            | [`docs/local.md`](docs/local.md)            |
-| 开发约定、能力索引、易错点         | [`AGENTS.md`](AGENTS.md)                    |
+| 想知道什么                         | 看哪里                                            |
+| ---------------------------------- | ------------------------------------------------- |
+| 全部文档索引                       | [`docs/README.md`](docs/README.md)                |
+| 从零搭自己的软件（改名/图标/打包） | [`docs/zh/start.md`](docs/zh/start.md)            |
+| 架构与扩展开发（命令/数据库/设置） | [`docs/zh/extending.md`](docs/zh/extending.md)    |
+| UI 设计规范                        | [`docs/zh/design.md`](docs/zh/design.md) 及平台篇 |
+| 打包、发布与在线更新               | [`docs/zh/release.md`](docs/zh/release.md)        |
+| 本地层（个人依赖/资源）            | [`docs/zh/local.md`](docs/zh/local.md)            |
+| 开发约定、能力索引、易错点         | [`AGENTS.md`](AGENTS.md)                          |
+
+> 文档按语言分目录：中文在 [`docs/zh/`](docs/zh)，英文在 [`docs/en/`](docs/en)。
 
 ## 协作与上游
 
 本仓库即框架 base。fork 通过 `git remote` 的 `upstream` 同步框架改动；个人内容集中在「本地层」
-（见 [`docs/local.md`](docs/local.md)）。改动归属判定见 [`docs/ownership.json`](docs/ownership.json)。
+（见 [`docs/zh/local.md`](docs/zh/local.md)）。改动归属判定见 [`docs/ownership.json`](docs/ownership.json)。
 
 ## 许可
 
