@@ -1,5 +1,7 @@
 # PocketArk
 
+> 中文 · [English](README.en.md)
+
 可复用的**桌面应用基础框架**（Tauri 2 + Vue 3 + TypeScript + Tailwind 4）。
 核心设计目标：**新增一个工具的成本尽可能低**——复制模板或 `pnpm create-plugin` 生成骨架，
 即可获得完整的导航、路由、启停管理、设置面板、数据库、日志、错误处理、系统集成与在线更新能力；
