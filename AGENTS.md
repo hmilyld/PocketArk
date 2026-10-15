@@ -1,5 +1,7 @@
 # PocketArk — AGENTS.md
 
+> 中文 · [English](AGENTS.en.md)
+
 Tauri 2 + Vue 3 + TypeScript + Tailwind 4 的桌面工具集合（Mac / Windows）。
 定位为**基础项目**：新增一个工具的成本尽量低，扩展走插件约定，框架代码（`src/core`、`src-tauri/src` 的 db/http/tray/updater/menu/tasks/open/…）只引用、不修改。
 

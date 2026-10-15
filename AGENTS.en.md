@@ -1,5 +1,7 @@
 # PocketArk — AGENTS.md
 
+> [中文](AGENTS.md) · English
+
 A collection of desktop tools built with Tauri 2 + Vue 3 + TypeScript + Tailwind 4 (Mac / Windows).
 Positioned as a **base project**: the cost of adding a new tool should be as low as possible, extensions follow plugin conventions, and framework code (`src/core`, the db/http/tray/updater/menu/tasks/open/… under `src-tauri/src`) is only referenced, never modified.
 
